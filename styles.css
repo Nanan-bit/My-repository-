@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: white;
+}
+
+.header {
+    background: #d1006a;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 50px;
+    background-colour: none;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #d1006a, #5a005a);
+}
+
+.hero h1 {
+    font-size: 24px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.highlight-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.highlight-box.yellow {
+    background: yellow;
+    color: black;
+}
+
+.services {
+    padding: 40px 20px;
+    background: #222;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.service-list {
+    max-width: 600px;
+    margin: auto;
+}
+
+.service-list p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.pricing {
+    padding: 40px 20px;
+    text-align: center;
+    background: #d1006a;
+}
+
+.pricing h2 {
+    margin-bottom: 20px;
+}
+
+.pricing-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.package {
+    background: white;
+    color: black;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.package h3 {
+    background: #007bff;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.package ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.package ul li {
+    padding: 5px 0;
+}
+
+.contact {
+    padding: 30px 20px;
+    text-align: center;
+    background: #222;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
